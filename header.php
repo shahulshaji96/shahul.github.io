@@ -13,7 +13,7 @@
 <!-- For main header navbar -->
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger fixed-md-rowrap p-1 shadow " >
-<a  class="navbar-brand col-sm-3 col-md-2 " href="user.php">SHAHUL</a>
+<a  class="navbar-brand col-sm-3 col-md-2 " href="index.php">SHAHUL</a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -25,10 +25,10 @@
         <a class="nav-link <?php if(PAGE=='Home'){echo 'active';}?>"
  href="index.php"><i class="fa fa-home fa-fw" aria-hidden="true"></i>User List</a> </li>
       <li class="nav-item">
-        <a class="nav-link  <?php if(PAGE=='Work'){echo 'active';}?>"
+        <a class="nav-link  <?php if(PAGE=='Add data'){echo 'active';}?>"
  href="form.php"><i class="fa fa-universal-access" aria-hidden="true"></i>Add Data</a> </li>
       <li class="nav-item">
-        <a class="nav-link  <?php if(PAGE=='Contact'){echo 'active';}?>"
+        <a class="nav-link  <?php if(PAGE=='About us'){echo 'active';}?>"
  href="about.php"> <i class="fa fa-user" aria-hidden="true"></i>About Us</a></li>
      
     </ul>
@@ -45,9 +45,9 @@
 <ul class="nav flex-cloumn mt-4" >
 <li ><a class="nav-link <?php if(PAGE=='Home'){echo 'active';}?>"
  href="index.php"><i class="fa fa-home fa-fw" aria-hidden="true"></i>User List </a><li>
- <li ><a  class="nav-link  <?php if(PAGE=='Work'){echo 'active';}?>"
+ <li ><a  class="nav-link  <?php if(PAGE=='Add data'){echo 'active';}?>"
  href="form.php"><i class="fa fa-universal-access" aria-hidden="true"></i>Add Data</a><li>
- <li ><a class="nav-link <?php if(PAGE=='Contact'){echo 'active';}?>"
+ <li ><a class="nav-link <?php if(PAGE=='About us'){echo 'active';}?>"
  href="about.php"> <i class="fa fa-user" aria-hidden="true"></i>About Us</a><li>   
 </ul>
 </div>
