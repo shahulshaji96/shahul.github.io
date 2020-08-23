@@ -1,0 +1,82 @@
+*{
+ 
+  background-size: cover;
+  background-position: center;
+
+}
+
+.sidenav {
+  height:100% ; 
+  width: 160px !important; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: rgb(150, 167, 159) !important;
+  overflow-x: hidden; 
+  padding-top: 50px;
+  float: right;
+  position: absolute; 
+}
+.sidenav ul{
+  display: inline-flex;
+  list-style: none;
+
+  
+}
+/* The navigation menu links */
+.nav-link{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #608545;
+  display: block;
+    
+}
+
+
+/* When you mouse over the navigation links, change their color */
+.active, .nav-link:hover {
+  color: #ffffff;
+}
+
+ .sidenav ul li:hover
+{
+    background: #92e4d6;
+    width: 100%;
+    border-radius: 3px;
+   
+}
+  
+    
+#footer {
+  position:relative;
+  left: 0 !important;
+  bottom: 0 !important;
+  width: 100%;
+  right: 0px;
+  margin-bottom: 0px;
+  flex-shrink: 0;
+}
+.body-content{
+  position:relative;
+  top:20px;
+  height:700px;
+  width:800px;
+  margin-left:auto;
+  margin-right:auto; 
+  background: transparent;
+}
+.img {
+  float: left;
+  width:  200px;
+  height: 200px;
+  background-size: cover;
+ padding: 2rem;
+}
+
+
+.head{
+  font-size: 20px;
+}
+
