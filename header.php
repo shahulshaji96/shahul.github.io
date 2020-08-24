@@ -13,7 +13,7 @@
 <!-- For main header navbar -->
 
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger fixed-md-rowrap  shadow " >
-<a  class="navbar-brand ml-4 " href="index.php">SHAHUL</a>
+<a class="navbar-brand ml-3 " href="index.php">SHAHUL</a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -25,13 +25,13 @@
     <ul class=" navbar-nav ml-auto mr-3 " >
       <li class="nav-item ">
         <a class="nav-link <?php if(PAGE=='Home'){echo 'active';}?>"
- href="index.php"><i class="fa fa-home fa-fw" aria-hidden="true"></i>User List</a> </li>
+ href="index.php"><i class="fa fa-address-book-o" aria-hidden="true"></i>User List</a> </li>
       <li class="nav-item">
         <a class="nav-link  <?php if(PAGE=='Add data'){echo 'active';}?>"
- href="form.php"><i class="fa fa-universal-access" aria-hidden="true"></i>Add Data</a> </li>
+ href="form.php"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Add Data</a> </li>
       <li class="nav-item">
         <a class="nav-link  <?php if(PAGE=='About us'){echo 'active';}?>"
- href="about.php"> <i class="fa fa-user" aria-hidden="true"></i>About Us</a></li>
+ href="about.php"><i class="fa fa-info-circle" aria-hidden="true"></i>About Us</a></li>
      
     </ul>
   </div>   
@@ -45,11 +45,11 @@
 <div  class="sidenav "   >
 <ul class="nav flex-cloumn mt-4  " >
 <li ><a class="nav-link <?php if(PAGE=='Home'){echo 'active';}?>"
- href="index.php"><i class="fa fa-home fa-fw" aria-hidden="true"></i>User List </a><li>
+ href="index.php"><i class="fa fa-address-book-o" aria-hidden="true"></i>User List </a><li>
  <li ><a  class="nav-link  <?php if(PAGE=='Add data'){echo 'active';}?>"
- href="form.php"><i class="fa fa-universal-access" aria-hidden="true"></i>Add Data</a><li>
+ href="form.php"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Add Data</a><li>
  <li ><a class="nav-link <?php if(PAGE=='About us'){echo 'active';}?>"
- href="about.php"> <i class="fa fa-user" aria-hidden="true"></i>About Us</a><li>   
+ href="about.php"><i class="fa fa-info-circle" aria-hidden="true"></i>About Us</a><li>   
 </ul>
 </div>
 </nav>
