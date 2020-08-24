@@ -6,10 +6,10 @@ include('header.php');
 
 ?>
 
-<div class="col-sm-8 col-md-10 " >
+<div class="col-sm-12 col-md-10 " >
     <!--- To display 3 divisions -->
    <div class="row text-center mx-5 mt-5 mb-5">
-     <div class="col-sm-4 mt-5">
+     <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
        <div class="card text-white bg-success mb-3"
        style="max-width: 21rem;">
            <h5 class="card-header ">Projects completed</h5>
@@ -19,7 +19,7 @@ include('header.php');
             </div>
        </div>  
      </div>
-     <div class="col-sm-4 mt-5">
+     <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
        <div class="card text-white bg-warning mb-3"
        style="max-width: 21rem;">
            <h5 class="card-header">Current Projects</h5>
@@ -29,7 +29,7 @@ include('header.php');
             </div>
        </div>  
      </div>
-     <div class="col-sm-4 mt-5">
+     <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
        <div class="card text-white bg-info mb-3"
        style="max-width: 21rem;">
            <h5 class="card-header"> Company Branches</h5>
@@ -130,6 +130,10 @@ include('header.php');
             </div>
         </section>
 </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 <?php

@@ -7,7 +7,7 @@ include('dbConnection.php');
 ?>
 
   <body>  
-<div class="col-sm-8 col-md-10 mt-4">
+<div class="col-12   col-sm-12  col-md-10 col-lg-10  mt-4">
    
   <div class="  mx-5 mt-5 text-center  ">
     <p class="bg-secondary head text-white p-2 ">DATA </p>
@@ -18,7 +18,9 @@ include('dbConnection.php');
            $sql ="SELECT * FROM userdata";
            $result = $conn->query($sql);
            if($result->num_rows> 0){
-            echo ' <table class="table table-striped table-success">
+            echo ' 
+            <div class="table-responsive">
+            <table class="table table-hover table-striped table-success">
                <thead>
                <tr>
                  <th scope="col">ID</th>
@@ -47,7 +49,7 @@ include('dbConnection.php');
                echo '</tr>';
                }
                echo '</tbody>
-               </table> ';   
+               </table></div> ';   
            }
 
            // To print some sample data if database do not have any 
@@ -113,6 +115,10 @@ include('dbConnection.php');
   </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
     <?php

@@ -12,15 +12,17 @@
 
 <!-- For main header navbar -->
 
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger fixed-md-rowrap p-1 shadow " >
-<a  class="navbar-brand col-sm-3 col-md-2 " href="index.php">SHAHUL</a>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger fixed-md-rowrap  shadow " >
+<a  class="navbar-brand ml-4 " href="index.php">SHAHUL</a>
 
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
+    <span class="icon-bar"></span>
+        <span class="icon-bar"></span>  
   </button>
-
+  
   <div class=" collapse navbar-collapse " id="navbarsExampleDefault" >
-    <ul class=" navbar-nav ml-auto mr-3" >
+    <ul class=" navbar-nav ml-auto mr-3 " >
       <li class="nav-item ">
         <a class="nav-link <?php if(PAGE=='Home'){echo 'active';}?>"
  href="index.php"><i class="fa fa-home fa-fw" aria-hidden="true"></i>User List</a> </li>
@@ -33,16 +35,15 @@
      
     </ul>
   </div>   
-
   <!-- For side navbar -->
 
 </nav>
 
-<div class="container-fluid " > 
-<div class="row">
-<nav  class="col-sm-2   sidebar  py-2 ">
-<div  class="sidenav"   >
-<ul class="nav flex-cloumn mt-4" >
+<div class="container-fluid  " > 
+<div class="row ">
+<nav  class=" col-md-2 col-lg-2   sidebar " >
+<div  class="sidenav "   >
+<ul class="nav flex-cloumn mt-4  " >
 <li ><a class="nav-link <?php if(PAGE=='Home'){echo 'active';}?>"
  href="index.php"><i class="fa fa-home fa-fw" aria-hidden="true"></i>User List </a><li>
  <li ><a  class="nav-link  <?php if(PAGE=='Add data'){echo 'active';}?>"

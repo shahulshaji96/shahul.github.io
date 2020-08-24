@@ -12,16 +12,16 @@ $msg="";
 .success { color: green;}
 </style>
 
- <div class=" col-sm-8 col-md-10 mt-4">
-          <div class="mx-5 mt-5 text-center">
+ <div class="col-12 col-sm-12 col-md-10 mt-4">
+          <div class=" mt-5 text-center">
            <p class="bg-secondary  head text-white p-2 ">ADD DATA </p>
           </div>
 
 
-<div class="d-flex justify-content-center py-3  mb-5">   
+<div class="d-flex justify-content-center   mb-5">   
       <!-- Default form register -->
 
-     <form class="text-center border border-light bg-light col-sm-6 col-md-8 py-3" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+     <form class="text-center border border-light bg-light   py-3" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
 
       <p class="h4 mb-4">Fill the user data</p>
     
@@ -137,6 +137,10 @@ $msg="";
      echo $ele;
       } 
  ?>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  </body>
 
  <?php
