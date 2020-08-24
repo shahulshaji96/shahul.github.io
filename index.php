@@ -54,7 +54,8 @@ include('dbConnection.php');
 
            // To print some sample data if database do not have any 
            else{
-            echo ' <table class="table table-striped table-success">
+            echo ' <div class="table-responsive">
+            <table class="table table-hover table-striped table-success">
             <thead>
             <tr>
               <th scope="col">ID</th>
@@ -109,7 +110,7 @@ include('dbConnection.php');
             <td> 6875 </td>
             </tr>
             <tbody>
-            </table> '; 
+            </table></div> '; 
            }
            ?>
   </div>
