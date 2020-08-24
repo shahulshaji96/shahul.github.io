@@ -9,7 +9,7 @@ include('dbConnection.php');
   <body>  
 <div class="col-12   col-sm-12  col-md-10 col-lg-10  mt-4">
    
-  <div class="  mx-5 mt-5 text-center  ">
+  <div class=" mt-5 text-center  ">
     <p class="bg-secondary head text-white p-2 ">DATA </p>
 
            <?php
