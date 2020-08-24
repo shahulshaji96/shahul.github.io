@@ -9,7 +9,7 @@
                 <p class="font-size-14 font-rale text-white-50">I would appreciate if you could pursue my application
 					 towards the suitable position in your highly esteemed organization. </p>
             </div>
-            <div class="col-lg-4 col-auto mb-2">
+            <div class="col-lg-4 col-sm-auto  col-12 mb-2">
                 <h4 class="font-rubik font-size-20">Email</h4>
                 <form class="form-row">
                     <div class="col">
